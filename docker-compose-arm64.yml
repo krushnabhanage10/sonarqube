@@ -1,7 +1,7 @@
 version: "3"
 services:
   sonarqube:
-    image: amd64/sonarqube:developer
+    image: mc1arke/sonarqube-with-community-branch-plugin:9.0-community
     hostname: sonarqube
     container_name: sonarqube
     depends_on:
